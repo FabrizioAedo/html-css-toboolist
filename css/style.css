@@ -1,0 +1,157 @@
+/*RESET*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{list-style: none;}
+ul li{padding: 15px 20px;}
+
+/*general*/
+.debug{
+    border: 1px solid red;
+}
+
+body{
+    background-color: #F6F8F9;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+}
+
+.container{
+    background-color: white;
+    max-width: 1000px;
+    height: 730px;
+    margin: 0 auto;
+    border-radius: 10px;
+
+    
+}
+ /*header*/
+
+ header{
+    background-color: white;
+    padding: 15px 20px;
+ }
+
+
+ h1{display: inline;
+    font-size: 3em;
+vertical-align: middle;}
+
+#logo img{vertical-align: middle;}
+
+ /*main*/
+ main{
+    padding: 30px 0;
+}
+
+ .top{
+    border-bottom: 5px solid  #F6F8F9;
+    padding: 15px 20px;
+    
+ }
+ .tasks{
+    padding: 15px 20px;
+ }
+
+.btn{padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+
+}
+.btn-filled{
+    background-color: #47adf1;
+    color: white;
+}
+
+.btn-empty{ 
+    border: 1px solid #c4cbd0;
+    background-color: white;
+    color: #c4cbd0;
+}
+
+.m-20{margin-right: 5px;}
+
+span.m-20{font-size: 15px;}
+
+.bg-blue{
+    background-color: #47adf1;
+}
+.bg-purple{
+    background-color: #ab5de6 ;
+}
+.bg-green{
+    background-color: green;
+}
+.bg-fucsia{
+    background-color: fuchsia;
+}
+.bg-orange{
+    background-color: orange;
+}
+.bg-green2{
+    background-color: rgb(132, 218, 3);
+}
+.cercle-rd{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    padding: 1px 2px;
+    border-radius: 50%;
+    border: 1px solid red;
+    font-size: 10px;
+}
+
+.cercle-gr{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    padding: 1px 2 px;
+    border-radius: 50%;
+    border: 1px solid green;
+    font-size: 10px;
+}
+    
+.green{
+    color: green;
+    margin-right: 5px;
+}
+.red{
+    color: red;
+    margin-right: 5px;
+}
+.tag{
+    color: white;
+    padding: 5px 10px;
+    margin-left: 5px;
+    border-radius: 10px;
+    font-size: 11px;
+}
+
+/*
+li::before{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border: 1px solid red;
+    border-radius: 50%;
+    color: red;
+    text-align: center;
+    margin-right: 10px;
+}
+
+li.circle.checked::before{
+    content: "\2713";
+    border: 1px solid #2cc6ab;
+    color: #2cc6ab ;
+}
+
+li.circle.delete::before{
+ content: "\2713";
+ border: 1px solid red;
+color: red;
+}*/
